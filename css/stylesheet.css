@@ -4,15 +4,36 @@
 	box-sizing: border-box;
 }
 
+/*  LANDING PAGE */
+
 .outer-container{
 	background-color: #000;
 	width: 100vw;
 	height: 100vh;
+	font-family: 'Inconsolata', monospace;
 }
+
+/* Background video */
 
 #bgVideo{
 	width: 100%;
-	height: 100%;
+	height: 90%;
 	position: relative;
-	right: 33px;
+	right: 100px;
+	z-index: 1;
+	margin: 50px 0 10px 0px;
+}
+/* Navbar */
+.navbar{
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	z-index: 2;
+}
+
+.nav-item{
+	padding: 10px 40px;
+	font-size: 20px;
+	position: relative;
+	right: 130px;
 }
