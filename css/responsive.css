@@ -1,5 +1,5 @@
 @media only screen and (max-width: 600px) {
-	.container{
+	.outer-container{
 		background-color: #000;
 	}
 	#bgVideo{
