@@ -5,7 +5,7 @@
 	color: white;
 }
 
-/*  LANDING PAGE */
+/* **************************** LANDING PAGE ***********************/
 
 .outer-container{
 	background-color: #000;
@@ -14,18 +14,17 @@
 	font-family: monospace;
 }
 
-/* Background video */
 
 #bgVideo{
+	position: relative;
 	width: 80%;
 	height: 80%;
-	position: relative;
 	left: 10px;
 	top: 50px;
 	z-index: 1;
 	margin: 50px 0 10px 10px;
 }
-/* Navbar */
+
 .navbar{
 	position: absolute;
 	top: 30px;
@@ -38,7 +37,6 @@
 	font-size: 20px;
 	position: relative;
 	right: 80px;
-	/* background-color: lightcoral; */
 }
 
 .nav-link:hover{
@@ -50,10 +48,6 @@
 	right: 70px;
 }
 
-/* Introductory text */
-
-
-
 .intro{
 	font-size: 70px;
 	position: absolute;
@@ -61,7 +55,6 @@
 	right: 105px;
 	z-index: 2;
 }
-
 
 .tagline{
 	position: absolute;
@@ -71,14 +64,12 @@
 	text-align: left;
 	width: 40%;
 	font-size: 30px;
-	/* background-color: lavender; */
 }
 
 .social-media-icons{
 	position: absolute;
 	top: 550px;
 	right: 190px;
-	/* background-color: lightslategray; */
 	display: flex;
 	z-index: 2;
 	width: 40%;
@@ -86,4 +77,15 @@
 
 .social-media-icon{
 	margin: 15px;
+}
+
+/*****************************ABOUT SECTION***********************/
+
+#about{
+	width: 100vw;
+	height: 90vh;
+	background-color: #000;
+	position: relative;
+	top: 0px;
+	z-index: 2;
 }
