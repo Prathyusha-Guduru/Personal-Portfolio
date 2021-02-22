@@ -88,4 +88,56 @@
 	position: relative;
 	top: 0px;
 	z-index: 2;
+	display: flex;
+	padding: 40px;
+}
+
+/* .box{
+	width: 300px;
+	height: 600px;
+	border: 5px lightgreen solid;
+	position:relative;
+	top: 1px;
+	z-index: 1;
+} */
+
+.photo{
+	width: 40%;
+	padding: 30px;
+	z-index: 3;
+}
+
+.content-heading{
+	margin: 0px 0px 40px 0px;
+}
+
+hr{
+	margin: 0 0 40px 0;
+}
+
+.content{
+	width: 40%;
+	padding: 30px;
+}
+
+.content-text>h5{
+	font-weight: lighter;
+	line-height: 1.5;
+}
+
+#projects{
+	background-color: #000;
+	height: 80vh;
+	width: 100vw;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	flex-direction: column;
+}
+
+.project-container{
+	background-color: #000;
+	height: 100%;
+	width: 80%;
 }
