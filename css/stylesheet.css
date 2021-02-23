@@ -130,19 +130,58 @@ hr{
 	line-height: 1.5;
 }
 
+/*******************PROJECT SECTION***********************/
+
 #projects{
 	background-color: #000;
 	height: 80vh;
-	width: 100vw;
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	flex-direction:column;
 	text-align: center;
-	flex-direction: column;
 }
+
+.project-section-heading{
+	/* background-color: lightgoldenrodyellow; */
+	position: relative;
+	left: 40%;
+}
+
 
 .project-container{
 	background-color: #000;
 	height: 100%;
 	width: 80%;
+	display: flex;
+}
+
+.project-cards{
+	height: 100%;
+	width: 100%;
+	/* background-color: lightcoral; */
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+
+}
+
+.project-row-1,.project-row-2{
+	display: flex;
+}
+
+.project-card{
+	border: 5px solid white;
+	height: 200px;
+	margin: 20px 60px 20px 0 ;
+	text-align: left;
+	padding: 10px 20px;
+}
+
+/****************** CONTACT ME **********************/
+
+#contact{
+	background-color: #000;
+	text-align: center;
 }
