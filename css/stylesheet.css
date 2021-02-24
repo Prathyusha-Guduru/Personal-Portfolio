@@ -136,24 +136,20 @@ hr{
 	color: #fff;
 }
 
-.project-section-heading{
-	/* background-color: lightgoldenrodyellow; */
-	position: relative;
-	left: 40%;
-}
-
 
 .project-container{
 	background-color: #000;
 	height: 100%;
 	width: 80%;
 	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
 }
 
 .project-cards{
 	height: 100%;
 	width: 100%;
-	/* background-color: lightcoral; */
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -166,12 +162,46 @@ hr{
 }
 
 .project-card{
-	border: 5px solid white;
-	height: 200px;
+	height: 220px;
 	margin: 20px 60px 20px 0 ;
 	text-align: left;
-	padding: 10px 20px;
+	width: 250px;
 }
+
+.card-inner{
+	width: 100%;
+	height: 100%;
+	transition: 1.5s ease-in-out;
+	transform-style: preserve-3d;
+	border: 5px solid white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+
+.project-card:hover .card-inner{
+	transform: rotateY(180deg);
+} 
+.front-face, .back-face{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+.front-face{
+	background-color: #000;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	padding-left: 20px;
+}
+
+.back-face{
+	background-color: #fff;
+	transform: rotateY(180deg);
+	color: #000;
+}
+
 
 /****************** CONTACT ME **********************/
 
