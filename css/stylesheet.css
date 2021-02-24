@@ -91,7 +91,7 @@ i{
 .fab:hover{
 	color: rgb(137, 243, 137);
 }
-/*****************************ABOUT SECTION***********************/
+/* **************************** ABOUT SECTION ***********************/
 
 #about{
 	width: 100vw;
@@ -131,7 +131,7 @@ hr{
 	line-height: 1.5;
 }
 
-/*******************PROJECT SECTION***********************/
+/* **************************** PROJECT SECTION ***********************/
 
 #projects{
 	background-color: #000;
@@ -211,7 +211,7 @@ hr{
 }
 
 
-/****************** CONTACT ME **********************/
+/* **************************** CONTACT ME SECTION ***********************/
 
 #contact{
 	background-color: #000;
@@ -221,7 +221,6 @@ hr{
 	justify-content: center;
 	align-items: center;
 	height: 400px;
-	/* background-color: lightgray; */
 	font-size: 20px;
 	color: #fff;
 }
@@ -238,13 +237,11 @@ input{
 
 
 form{
-	/* background-color: lightpink; */
 	display: flex;
 	flex-direction: column;
 }
 
 .input-box{
-	/* background-color: lightgreen; */
 	padding: 20px 30px;
 	margin: 10px;
 	display: flex;
@@ -289,8 +286,7 @@ form{
 }
 
 
-
-/*********** FOOTER ************/
+/* **************************** FOOTER ***********************/
 
 footer{
 	padding: 100px 0 0 10px;
