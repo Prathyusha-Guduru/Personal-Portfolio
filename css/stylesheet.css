@@ -2,7 +2,6 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	color: white;
 }
 
 body{
@@ -16,7 +15,7 @@ body{
 	width: 100vw;
 	height: 100vh;
 	font-family: monospace;
-
+	color: #fff;
 }
 
 
@@ -95,16 +94,10 @@ i{
 	z-index: 2;
 	display: flex;
 	padding: 40px;
+	color: #fff;
 }
 
-/* .box{
-	width: 300px;
-	height: 600px;
-	border: 5px lightgreen solid;
-	position:relative;
-	top: 1px;
-	z-index: 1;
-} */
+
 
 .photo{
 	width: 40%;
@@ -140,6 +133,7 @@ hr{
 	justify-content: center;
 	flex-direction:column;
 	text-align: center;
+	color: #fff;
 }
 
 .project-section-heading{
@@ -191,6 +185,7 @@ hr{
 	height: 400px;
 	/* background-color: lightgray; */
 	font-size: 20px;
+	color: #fff;
 }
 
 input{
@@ -221,31 +216,58 @@ form{
 
 .input-line-1{
 	margin: 0 0 0 60px;
+	transition-duration: 1s;
 }
+
+.input-line-1:hover{
+	transform: scale(1.1);
+}
+
+.input-line-2{
+	transition-duration: 1s;
+}
+.input-line-2:hover{
+	transform: scale(1.1);
+}
+
 
 .input-line{
 	width: 300px;	
 }
 
+
+
 .submit-button{
 	border: 2px solid white;
 	width: 30%;
+	padding: 10px 150px 10px 100px;
+	margin: 50px 0 40px 60px;
+	transition-duration: 1s;
+	color: #fff;
 }
 
-/***********HEADER************/
+.submit-button:hover{
+	transform: scale(1.1);
+}
+
+
+
+/*********** FOOTER ************/
 
 footer{
-	padding: 30px 0 0 10px;
+	padding: 100px 0 0 10px;
 	background-color: #000;
 	display: flex;
 	justify-content: center;
-	flex-direction: column;
 	align-items: center;
 	line-height: 10px;
+	color: #cdd0cb;
+	font-size: 15px;
+	width: 100%;
 }
 
 .github-link{
-	color: #fff;
+	color: #cdd0cb;
 	text-decoration: none;
 }
 
