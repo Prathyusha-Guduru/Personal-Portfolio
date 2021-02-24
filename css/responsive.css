@@ -1,8 +1,0 @@
-@media only screen and (max-width: 600px) {
-	.outer-container{
-		background-color: #000;
-	}
-	#bgVideo{
-		visibility: hidden;
-	}
-  }

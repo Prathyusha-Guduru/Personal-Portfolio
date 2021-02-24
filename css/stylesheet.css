@@ -19,6 +19,9 @@ body{
 	color: #fff;
 }
 
+.text-phone{
+	visibility: hidden;
+}
 
 #bgVideo{
 	position: relative;
@@ -54,6 +57,10 @@ i{
 .p-logo{
 	position: relative;
 	right: 70px;
+}
+
+.p-logo-phone{
+	visibility: hidden;
 }
 
 .intro{
