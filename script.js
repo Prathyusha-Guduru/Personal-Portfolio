@@ -8,3 +8,5 @@ for(let i=0;i<navItems.length;i++){
 		navItems[i].style.color = 'rgb(255,255,255)'
 	})
 }
+
+
