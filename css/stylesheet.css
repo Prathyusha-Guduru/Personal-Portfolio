@@ -83,6 +83,14 @@ i{
 	margin: 15px;
 }
 
+.fab{
+	color: #fff;
+	font-size: 30px;
+}
+
+.fab:hover{
+	color: rgb(137, 243, 137);
+}
 /*****************************ABOUT SECTION***********************/
 
 #about{
