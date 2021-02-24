@@ -45,7 +45,9 @@ body{
 	right: 80px;
 }
 
-
+i{
+	color: wheat;
+}
 .p-logo{
 	position: relative;
 	right: 70px;
