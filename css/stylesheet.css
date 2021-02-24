@@ -3,7 +3,6 @@
 	padding: 0;
 	box-sizing: border-box;
 	color: white;
-	
 }
 
 body{
@@ -17,6 +16,7 @@ body{
 	width: 100vw;
 	height: 100vh;
 	font-family: monospace;
+
 }
 
 
@@ -37,6 +37,7 @@ body{
 	z-index: 2;
 }
 
+
 .nav-item{
 	padding: 10px 40px;
 	font-size: 20px;
@@ -44,9 +45,6 @@ body{
 	right: 80px;
 }
 
-.nav-link:hover{
-	color: rgb(0,255,0);
-}
 
 .p-logo{
 	position: relative;
