@@ -33,9 +33,12 @@ body{
 .navbar{
 	position: absolute;
 	top: 30px;
-	right: 10px;
-	z-index: 2;
+	right:10px;
+	z-index: 3;
 }
+
+
+
 
 
 .nav-item{
@@ -159,7 +162,9 @@ hr{
 	text-align: center;
 	color: #fff;
 	margin: 0 0 100px 0;
+	width: 100%;
 }
+
 
 .project-section-heading {
 	font-size: 50px;
@@ -193,10 +198,11 @@ hr{
 
 .project-card{
 	height: 220px;
-	margin: 20px 60px 20px 0 ;
+	margin: 20px 80px 40px 20px ;
 	text-align: left;
 	width: 250px;
 }
+
 
 .card-inner{
 	width: 100%;
@@ -260,10 +266,18 @@ hr{
 	align-items: center;
 	height: 400px;
 	font-size: 20px;
-	color: #fff;
-	margin: 100px 0 0 0;
+	margin: 200px 0 0 0;
+	position: relative;
+	bottom: 50px;
 }
 
+.contact-section-heading{
+	position: relative;
+	bottom: 70px;
+	padding: 0 0 40px 0;
+	border-bottom: 2px solid #3c3c3c;
+	width: 40%;
+}
 
 input{
 	border: none;
@@ -317,12 +331,13 @@ form{
 	width: 30%;
 	padding: 10px 150px 10px 100px;
 	margin: 50px 0 40px 60px;
-	transition-duration: 1s;
+	transition-duration: 4s;
 	color: #fff;
 }
 
 .submit-button:hover{
 	transform: scale(1.1);
+	transform: rotateY(360deg);
 }
 
 
