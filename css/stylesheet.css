@@ -38,6 +38,8 @@ header{
 	position: absolute;
 	top: 0px;
 	z-index: 3;
+	position: fixed;
+	height: 100px;
 }
 
 .navbar{
@@ -46,6 +48,7 @@ header{
 	left: 720px;
 	background-color: #000 !important;
 	color: #fff !important;
+	height: 100px;
 }
 
 
@@ -60,12 +63,12 @@ header{
 }
 
 i{
-	color: wheat;
+	color: #fff;
 }
 .p-logo{
 	position: relative;
 	right: 40px;
-	height: 100px;
+	height: 90px;
 	z-index: 3;
 
 }
@@ -384,3 +387,22 @@ footer{
 }
 
 
+.warning{
+	visibility: hidden;
+}
+
+@media(max-width: 854px){
+	.outer-container{
+		visibility: hidden;
+	}
+	body{
+		width: 100vw;
+		height: 100vh;
+		background-color: #000;
+	}
+	.warning{
+		visibility: visible;
+		color: #fff;
+	}
+
+}
