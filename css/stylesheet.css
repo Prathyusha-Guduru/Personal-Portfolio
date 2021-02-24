@@ -105,8 +105,6 @@ i{
 	color: #fff;
 }
 
-
-
 .photo{
 	width: 40%;
 	padding: 30px;
@@ -205,10 +203,26 @@ hr{
 }
 
 .back-face{
-	background-color: #fff;
+	background-color: #000;
 	transform: rotateY(180deg);
-	color: #000;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
 }
+
+.back-face i{
+	color: rgba(255,255,255,0.9);
+	font-size: 90px;
+	transition-duration: 1s;
+	margin: 0 0 20px 0;
+}
+
+.back-face i:hover{
+	transform: scale(1.1);
+	color: rgba(255,255,255,1);
+}
+
 
 
 /* **************************** CONTACT ME SECTION ***********************/
