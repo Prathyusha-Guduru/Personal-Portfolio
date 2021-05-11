@@ -33,6 +33,8 @@ input{
 form{
 	display: flex;
 	flex-direction: column;
+	position: relative;
+	bottom: 20px;
 }
 
 .input-box{
