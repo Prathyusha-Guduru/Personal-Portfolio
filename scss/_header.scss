@@ -1,0 +1,46 @@
+.navbar-brand{
+	img{
+
+		height: 20px;
+	}
+}
+
+header{
+	height: 9vh;
+	background-color: lightcoral !important;
+	position: fixed;
+	width: 100%;
+	z-index: 3;
+}
+nav{
+	height: 100%;
+	position: fixed;
+}
+
+.navbar-right{
+	@include RightContainer();	
+	display: flex;
+	justify-content: space-between;
+}	
+
+.nav-item{
+	padding: 0 30px;
+}
+
+.nav-link:hover{
+	color: $green !important;
+}
+
+
+@media only screen and (max-width : 900px){
+
+	
+	.navbar-right{
+		@include mobileOccupyFull();
+		width: 90%;
+		padding: 10px 10px;
+		margin: 10px 10px 0 20px;
+		
+	}
+
+}

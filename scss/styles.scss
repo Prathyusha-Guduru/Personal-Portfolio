@@ -1,0 +1,22 @@
+@import "./variables";
+@import "./mixins";
+@import "./header";
+@import "./home";
+@import "./about";
+@import "./projects";
+
+body{
+	background-color: $black;
+	font-size: 16px;
+	font-family: $fontType;
+	color: #fff;
+	@include flexCenter();
+}
+
+.green-dot{
+	color : $green;
+}
+
+.section{
+	@include RightContainer();
+}

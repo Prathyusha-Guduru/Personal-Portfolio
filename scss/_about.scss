@@ -1,0 +1,61 @@
+#about{
+	@include sectionLayout();
+	margin: 0 0 100px 0;
+	.about-content{
+		position: relative;
+		bottom: 100px;
+	}
+}
+
+.photo-wrapper{
+	transform: scale(1.1);
+	position: relative;
+	bottom: 50px;
+}
+
+.about-content{
+	width: 40%;
+	transform: scale(1.1);
+	position: relative;
+	right: 100px;
+}
+
+.about-content-text{
+	width: 80%;
+}
+
+.section-heading{
+	font-size: 3rem;
+	margin: 20px 0;
+}
+
+
+.skills-wrapper{
+	
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.skill{
+	border: 1px solid white;
+	padding: 5px 10px;
+	margin: 5px 10px 5px 0;
+	&:hover{
+		color: $green;
+		border: 1px solid $green;
+	}
+}
+
+@media only screen and (max-width : 600px){
+	body{
+		overflow: scroll;
+	}
+
+	#about{
+		width: 90%;
+		@include flexCenter();
+		background-color: lightblue;
+	}
+
+
+}

@@ -1,0 +1,142 @@
+
+
+
+
+#home{
+	height: 100vh;
+	margin: 0 0 100px 0;
+}
+.video{
+	margin: 0px 10px;
+	position: absolute;
+	z-index: -1;
+	width: 90%;
+	height: 90%;
+	overflow: hidden;
+}
+
+.intro-text-wrapper{
+	@include RightContainer();
+	margin: 150px 0;
+}
+
+.name-wrapper{
+	margin: 40px 0;
+}
+
+.glitch{
+	color:white;
+	position:relative;
+	margin:0 auto;
+	font-size : 5rem;
+	
+  }
+  @keyframes noise-anim{
+	$steps:20;
+	@for $i from 0 through $steps{
+	  #{percentage($i*(1/$steps))}{
+		clip:rect(random(100)+px,9999px,random(100)+px,0);
+	  }
+	}
+  }
+  .glitch:after{
+	content:attr(data-text);
+	position:absolute;
+	left:2px;
+	text-shadow:-1px 0 red;
+	top:0;
+	color:white;
+	background:black;
+	overflow:hidden;
+	clip:rect(0,900px,0,0); 
+	animation:noise-anim 2s infinite linear alternate-reverse;
+  }
+  
+  @keyframes noise-anim-2{
+	$steps:20;
+	@for $i from 0 through $steps{
+	  #{percentage($i*(1/$steps))}{
+		clip:rect(random(100)+px,9999px,random(100)+px,0);
+	  }
+	}
+  }
+  .glitch:before{
+	content:attr(data-text);
+	position:absolute;
+	left:-2px;
+	text-shadow:1px 0 $green; 
+	top:0;
+	color:white;
+	background:black;
+	overflow:hidden;
+	clip:rect(0,900px,0,0); 
+	animation:noise-anim-2 3s infinite linear alternate-reverse;
+  }
+
+
+.social-media-icons{
+	width: 50%;
+	font-size: 1.5rem;
+	
+	@include flexCenter();
+	justify-content: flex-start;
+	a{
+		color: #fff;
+	}
+	a:hover{
+		color: $green;
+	}
+}
+
+.social-media-icon{
+	padding: 50px 60px 50px 0 ;
+}
+
+.resume-button{
+	a{
+		@include button();
+	}
+	
+	
+}
+
+
+@media only screen and (max-width : 900px){
+	.video{
+		visibility: hidden;
+	}
+	#home{
+		@include flexCenter();
+		width: 100%;
+		
+	}
+	.intro-text-wrapper{
+		@include mobileOccupyFull();
+		@include flexCenter();
+		flex-direction: column;
+		width: 80%;
+		
+	}
+
+	.name-wrapper{
+		width: 70%;
+	}
+	.social-media-icons{
+		width: 70%;
+		
+	}
+	.glitch{
+		font-size: 3rem;
+	}
+	.tagline{
+		@include flexCenter();
+		h2{
+			font-size: 1rem;
+			width: 70%;
+		}
+		
+	}
+	.resume-button{
+		width: 70%;
+	}
+}

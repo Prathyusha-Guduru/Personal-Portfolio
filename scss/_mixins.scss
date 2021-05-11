@@ -1,0 +1,33 @@
+@mixin RightContainer {
+	width: 50%;
+	position: absolute;
+	left : 50%;
+}
+@mixin flexCenter {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+@mixin button{
+	text-decoration: none;
+		color: #fff;
+		padding: 10px 40px;
+		border: 2px solid #fff;
+		&:hover{
+			color: $green;
+			border: 2px solid $green;
+		}
+}
+
+@mixin mobileOccupyFull {
+	width: 100%;
+	position: absolute;
+	left: 0px;
+}
+
+@mixin sectionLayout{
+	@include flexCenter();
+	width: 90%;
+	margin: 0 50px;
+}
