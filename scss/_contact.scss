@@ -1,0 +1,80 @@
+#contact{
+	background-color: #000;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 400px;
+	font-size: 20px;
+	margin: 200px 0 0 0;
+	position: relative;
+	bottom: 50px;
+}
+
+.contact-section-heading{
+	position: relative;
+	bottom: 70px;
+	// padding: 0 0 40px 0;
+	width: 40%;
+}
+
+input{
+	border: none;
+	background: transparent;
+	border-bottom: 2px solid white;
+	display: inline;
+	margin: 0 0 0 30px;
+	position: relative;
+	bottom:10px
+}
+
+
+form{
+	display: flex;
+	flex-direction: column;
+}
+
+.input-box{
+	padding: 20px 30px;
+	margin: 10px;
+	display: flex;
+	align-items: center;
+	justify-content:left;
+}
+
+.input-line-1{
+	margin: 0 0 0 60px;
+	transition-duration: 1s;
+}
+
+.input-line-1:hover{
+	transform: scale(1.1);
+}
+
+.input-line-2{
+	transition-duration: 1s;
+}
+.input-line-2:hover{
+	transform: scale(1.1);
+}
+
+
+.input-line{
+	width: 300px;	
+}
+
+
+
+.submit-button{
+	border: 2px solid white;
+	width: 30%;
+	padding: 10px 150px 10px 100px;
+	margin: 50px 0 40px 60px;
+	color: #fff;
+}
+
+.submit-button:hover{
+	border: 2px solid $green;
+	color: $green;
+}
