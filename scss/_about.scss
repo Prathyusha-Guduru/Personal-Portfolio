@@ -46,16 +46,3 @@
 	}
 }
 
-@media only screen and (max-width : 600px){
-	body{
-		overflow: scroll;
-	}
-
-	#about{
-		width: 90%;
-		@include flexCenter();
-		background-color: lightblue;
-	}
-
-
-}
