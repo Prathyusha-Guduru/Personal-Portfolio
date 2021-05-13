@@ -1,23 +1,19 @@
 footer{
-	padding: 100px 0 0 10px;
-	background-color: #000;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	line-height: 10px;
-	color: #cdd0cb;
-	font-size: 15px;
-	width: 100%;
+	@include flexCenter();
+	flex-direction: column;
+	a{
+		color: #fff;
+		&:hover{
+			color: $green;
+		}
+	}
 }
 
-.github-link{
-	color: #cdd0cb;
-	text-decoration: none;
+.social-links{
+	@include flexCenter();
 }
 
-.github-link:hover{
-	text-decoration: underline;
-	color: #fff;
+.social-media-icon-f{
+	padding: 10px 10px;
+	font-size: 20px;
 }
-
-

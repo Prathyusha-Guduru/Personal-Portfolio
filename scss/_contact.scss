@@ -1,7 +1,7 @@
 #contact{
 	@include flexCenter();
-	position: relative;
-	bottom: 100px;
+	margin: 100px 0 100px 0 ;
+
 }
 
 .contact-wrapper{
@@ -54,3 +54,4 @@ input{
 	padding: 10px 20px;
 	color: #fff;
 }
+
