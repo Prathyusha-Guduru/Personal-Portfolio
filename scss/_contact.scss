@@ -1,9 +1,7 @@
 #contact{
 	@include flexCenter();
-}
-
-.name-section{
-	
+	position: relative;
+	bottom: 100px;
 }
 
 .contact-wrapper{
