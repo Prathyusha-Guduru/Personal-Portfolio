@@ -1,5 +1,58 @@
 #contact{
-	background-color: lightcoral;
 	@include flexCenter();
 }
 
+.name-section{
+	
+}
+
+.contact-wrapper{
+	
+	width: 50%;
+	@include flexCenter();
+	flex-direction: column;
+}
+
+
+.name-section{
+	margin: 10px 0;
+}
+
+.email-section{
+	input{
+		width: 100%;
+		margin: 10px 0;
+	}
+}
+
+.message-section{
+	input{
+		width: 100%;
+		margin: 10px 0;
+		height: 100px;
+		align-items: flex-start;
+		&::placeholder{
+			position: relative;
+			bottom: 20px;
+		}
+	}
+
+}
+
+.button{
+	width: 100%;
+	@include flexCenter();
+	button{
+		margin: 10px;
+		@include button();
+		background-color: transparent;
+		padding: 10px 40px;
+	}
+}
+
+input{
+	background-color: transparent;
+	border: 2px solid white;
+	padding: 10px 20px;
+	color: #fff;
+}
