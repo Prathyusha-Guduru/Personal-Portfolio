@@ -259,23 +259,16 @@
 			</div>
 		</div>
 
-		<div id="contact">
-			<h1 class="project-section-heading contact-section-heading">Contact Me<span class="green-dot">.</span></h1>
-			<form action="mailto:prathyushaguduru28@gmail.com" method="post" enctype="text/plain">
-				<h4>I would love to hear from you!</h4>
-				<div class="input-box">
-					<label for="Name">Name </label>
-					<input class="input-line input-line-1" type="text" name=Name">
-				</div>
-				<div class="input-box">
-					<label for="comment">Comment </label>
-					<input class="input-line input-line-2" type="text" name="comment" size="50">
-				</div>
-				<div id="button-container">
-					<input class="submit-button" type="submit" value="Send">
-				</div>
-			</form>
-		</div>
+		<form action="https://formsubmit.co/prathyushaguduru28@gmail.com" method="POST">
+			<input type="text" name="name" required placeholder="First Name">
+			<input type="text" name="name" required placeholder="Last Name">
+			<input type="email" name="email" required placeholder="Email Address">
+			<input type="hidden" name="_subject" value="New email from portfolio wooo!">
+			<input type="text" name="message" placeholder="Your message">
+			<input type="hidden" name="_captcha" value="false">
+			<input type="hidden" name="_next" value="https://prathyusha-portfolio.netlify.app/">
+			<button type="submit">Send</button>
+		</form>
 
 		<footer>
 			<p>Made with 🤍 by <a class='github-link' href="https://github.com/Prathyusha-Guduru">Prathyusha
